@@ -1,13 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Map from '../components/map'
 import SEO from '../components/seo'
 
-const MapPage = () => (
+const IndexPage = () => (
   <Layout>
-    <SEO title="Map" />
-    <Map />
+    <SEO title="Table" />
+    <div>Table will go here</div>
   </Layout>
 )
 
-export default MapPage
+export default IndexPage
