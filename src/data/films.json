@@ -72,9 +72,11 @@
   {
     "title": "101 Reykjavik",
     "country": "Iceland",
+    "description": "Will the 30 y.o. Hlynur ever move out of his mother's apartment in Reykjavík? Social welfare keeps him passive but things change when his mother's Spanish friend, Lola, arrives and stays through Xmas and New Year's Eve.",
     "links": {
       "imdb": "https://www.imdb.com/title/tt0237993/",
-      "justWatch": "https://www.justwatch.com/uk/movie/101-reykjavik"
+      "justWatch": "https://www.justwatch.com/uk/movie/101-reykjavik",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/101_reykjavik"
     }
   },
   { "country": "India" },
@@ -83,9 +85,11 @@
   {
     "title": "Son of Babylon",
     "country": "Iraq",
+    "description": "A willful young boy follows his just as obstinate grandmother in a journey across Iraq, determined to discover the fate of her missing son, Ahmed's father, who never returned from war.",
     "links": {
       "imdb": "https://www.imdb.com/title/tt1415290/",
-      "justWatch": "https://www.justwatch.com/uk/movie/son-of-babylon"
+      "justWatch": "https://www.justwatch.com/uk/movie/son-of-babylon",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/son_of_babylon"
     }
   },
   { "country": "Ireland" },
@@ -93,9 +97,11 @@
   {
     "title": "The Consequences of Love",
     "country": "Italy",
+    "description": "An introverted man's life changes completely when he finds himself attracted to a young bar-maid.",
     "links": {
       "imdb": "https://www.imdb.com/title/tt0398883/",
-      "justWatch": "https://www.justwatch.com/uk/movie/the-consequences-of-love"
+      "justWatch": "https://www.justwatch.com/uk/movie/the-consequences-of-love",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/consequences_of_love"
     }
   },
   { "country": "Jamaica" },
@@ -122,6 +128,7 @@
   {
     "title": "Simshar",
     "country": "Malta",
+    "description": "Young Theo is sent on his first trip with his Maltese sea faring family, but things go terribly wrong when the 'Simshar' sinks, leaving the crew stranded in the Mediterranean...",
     "links": {
       "imdb": "https://www.imdb.com/title/tt2521700/",
       "justWatch": "https://www.justwatch.com/uk/movie/simshar"
@@ -157,7 +164,11 @@
   {
     "title": "You are God",
     "country": "Poland",
-    "links": { "imdb": "https://www.imdb.com/title/tt2209386/" }
+    "description": "The process of creating Polish hip-hop group Paktofonika, its highs and lows and very last days of life of its frontman and co-founder Piotr (Magik) Luszcz.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt2209386/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/you_are_god"
+    }
   },
   { "country": "Portugal" },
   { "country": "Puerto Rico" },
@@ -165,6 +176,7 @@
   {
     "title": "The Way I Spent the End of the World",
     "country": "Romania",
+    "description": "In communist era Romania, people live with hope for a new life of freedom.",
     "links": {
       "imdb": "https://www.imdb.com/title/tt0799991/",
       "justWatch": "https://www.justwatch.com/us/movie/the-way-i-spent-the-end-of-the-world"
@@ -177,9 +189,11 @@
   {
     "title": "Ratcatcher",
     "country": "Scotland",
+    "description": "An unabashed kid navigates the filthy world of 1973 Glasgow, preoccupying himself with the equally poor youth around him.",
     "links": {
       "imdb": "https://www.imdb.com/title/tt0171685/",
-      "justWatch": "https://www.justwatch.com/uk/movie/ratcatcher"
+      "justWatch": "https://www.justwatch.com/uk/movie/ratcatcher",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/ratcatcher"
     }
   },
   { "country": "Senegal" },
@@ -201,7 +215,11 @@
   {
     "title": "Hiver Nomade",
     "country": "Switzerland",
-    "links": { "imdb": "https://www.imdb.com/title/tt2215113/" }
+    "description": "A 600 kilometre winter trek for 800 sheep, accompanied by 3 donkeys, 4 dogs and led by two shepherds, Pascal and Carole.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt2215113/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/winter_nomads"
+    }
   },
   { "country": "Syria" },
   { "country": "Taiwan" },

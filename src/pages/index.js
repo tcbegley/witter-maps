@@ -26,18 +26,21 @@ const IndexPage = () => {
     columns: [
       { label: 'Country', field: 'country' },
       { label: 'Title', field: 'title' },
-      { label: 'Selected', field: 'selected' },
     ],
     rows: films.map(({ title, country }) => ({
       title,
       country,
-      selected: title !== undefined,
     })),
   }
   return (
     <Layout>
       <SEO title="Table" />
-      <MDBDataTable striped bordered hover data={data} />
+      <h1>Witter maps</h1>
+      <p>
+        A record of entries for Wittertainment's "A film for every country"
+        feature.
+      </p>
+      <MDBDataTable striped bordered hover noBottomColumns data={data} />
     </Layout>
   )
 }
