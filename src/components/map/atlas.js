@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react'
+import React, { memo, useState, useEffect } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { ComposableMap, Geographies, ZoomableGroup } from 'react-simple-maps'
 import ReactTooltip from 'react-tooltip'
@@ -50,6 +50,10 @@ const Atlas = ({ setCardContent }) => {
       }
     }
   `)
+  let isMobile = true
+  useEffect(() => {
+    isMobile = /iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent)
+  })
   return (
     <div>
       <ComposableMap
@@ -98,7 +102,7 @@ const Atlas = ({ setCardContent }) => {
           </Geographies>
         </ZoomableGroup>
       </ComposableMap>
-      <ReactTooltip>{tooltipContent}</ReactTooltip>
+      <ReactTooltip disable={isMobile}>{tooltipContent}</ReactTooltip>
     </div>
   )
 }
