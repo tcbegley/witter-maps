@@ -5,3 +5,7 @@ path.rsm-geography:focus {
 .nav-tabs .nav-link:focus {
   outline: none;
 }
+
+#chosen tbody tr {
+  cursor: pointer;
+}
