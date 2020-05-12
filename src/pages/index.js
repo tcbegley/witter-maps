@@ -1,9 +1,9 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { MDBDataTable } from 'mdbreact'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Tabs from '../components/tabs'
 
 const IndexPage = () => {
   const {
@@ -14,33 +14,30 @@ const IndexPage = () => {
         nodes {
           country
           title
+          description
           links {
             imdb
             justWatch
+            rottenTomatoes
+          }
+          listenAgain {
+            date
+            timestamp
           }
         }
       }
     }
   `)
-  const data = {
-    columns: [
-      { label: 'Country', field: 'country' },
-      { label: 'Title', field: 'title' },
-    ],
-    rows: films.map(({ title, country }) => ({
-      title,
-      country,
-    })),
-  }
+
   return (
     <Layout>
-      <SEO title="Table" />
-      <h1>Witter maps</h1>
+      <SEO title="Home" />
+      <h1>WitterMaps</h1>
       <p>
         A record of entries for Wittertainment's "A film for every country"
-        feature.
+        feature. Click on countries on the map or search the table.
       </p>
-      <MDBDataTable striped bordered hover noBottomColumns data={data} />
+      <Tabs films={films} />
     </Layout>
   )
 }

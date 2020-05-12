@@ -1,0 +1,11 @@
+path.rsm-geography:focus {
+  outline: none;
+}
+
+.nav-tabs .nav-link:focus {
+  outline: none;
+}
+
+#chosen tbody tr {
+  cursor: pointer;
+}
