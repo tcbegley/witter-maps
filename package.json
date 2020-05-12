@@ -19,8 +19,7 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.0.0",
-    "react-simple-maps": "^2.0.0",
-    "react-tooltip": "^4.2.6"
+    "react-simple-maps": "^2.0.0"
   },
   "devDependencies": {
     "prettier": "2.0.5"
