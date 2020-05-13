@@ -6,7 +6,6 @@ import Tab from 'react-bootstrap/Tab'
 import InteractiveMap from './map/interactive-map'
 
 const linkLookup = [
-  { name: 'overCast', label: 'Listen again' },
   { name: 'imdb', label: 'IMDb' },
   { name: 'rottenTomatoes', label: 'Rotten Tomatoes' },
   { name: 'justWatch', label: 'JustWatch' },
@@ -26,7 +25,7 @@ const linksToList = links => {
       </a>
     ))
   // add spacing between links
-  const indices = [1, 3, 5]
+  const indices = [1, 3]
   indices.forEach(i => {
     if (linkElements.length > i) {
       linkElements.splice(i, 0, ' · ')
