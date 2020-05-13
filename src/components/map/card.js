@@ -10,14 +10,7 @@ export default ({ film }) => {
         <h5 className="card-subtitle mb-2">{film.title}</h5>
         <p className="card-text">{film.description}</p>
         <p className="card-text">
-          Listen again:{' '}
-          <a
-            href={film.listenAgain.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {film.listenAgain.date} ({film.listenAgain.timestamp})
-          </a>
+          Listen again: {film.listenAgain.date} ({film.listenAgain.timestamp})
         </p>
         {film.links.imdb && (
           <a
