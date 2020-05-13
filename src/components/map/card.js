@@ -9,18 +9,43 @@ export default ({ film }) => {
         <h3 className="card-title">{film.country}</h3>
         <h5 className="card-subtitle mb-2">{film.title}</h5>
         <p className="card-text">{film.description}</p>
+        <p className="card-text">
+          Listen again:{' '}
+          <a
+            href={film.listenAgain.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {film.listenAgain.date} ({film.listenAgain.timestamp})
+          </a>
+        </p>
         {film.links.imdb && (
-          <a className="card-link" href={film.links.imdb}>
+          <a
+            className="card-link"
+            href={film.links.imdb}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             IMDB
           </a>
         )}
         {film.links.justWatch && (
-          <a className="card-link" href={film.links.justWatch}>
+          <a
+            className="card-link"
+            href={film.links.justWatch}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             JustWatch
           </a>
         )}
         {film.links.rottenTomatoes && (
-          <a className="card-link" href={film.links.rottenTomatoes}>
+          <a
+            className="card-link"
+            href={film.links.rottenTomatoes}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             RottenTomatoes
           </a>
         )}

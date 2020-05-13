@@ -36,8 +36,6 @@ const linksToList = links => {
   return linkElements
 }
 
-const listenAgainToValue = ({ date, timestamp }) => `${date} (${timestamp})`
-
 const ChosenContent = ({ films }) => {
   const [currentFilm, setCurrentFilm] = useState(null)
 
@@ -47,13 +45,11 @@ const ChosenContent = ({ films }) => {
       { label: 'Country', field: 'country' },
       { label: 'Title', field: 'title' },
       { label: 'Links', field: 'links', width: 'auto', sort: 'disabled' },
-      { label: 'Listen Again', field: 'listenAgain' },
     ],
     rows: chosenFilms.map(film => ({
       title: film.title,
       country: film.country,
       links: linksToList(film.links),
-      listenAgain: listenAgainToValue(film.listenAgain),
       clickEvent: () => setCurrentFilm(film),
     })),
   }
