@@ -7,7 +7,19 @@
   { "country": "Argentina" },
   { "country": "Armenia" },
   { "country": "Australia" },
-  { "country": "Austria" },
+  {
+    "title": "The Inheritors",
+    "country": "Austria",
+    "description": "Austria, a little farming valley. Beginning of the century. When one of the farmers is found murdered one day, his labourers know of nothing, but are relieved, as the tyranny has ended.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt0141824/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/1089101_inheritors"
+    },
+    "listenAgain": {
+      "date": "15th May 2020",
+      "timestamp": "28:54"
+    }
+  },
   { "country": "Azerbaijan" },
   { "country": "Bahamas" },
   { "country": "Bangladesh" },
@@ -40,7 +52,20 @@
   { "country": "Czechia" },
   { "country": "C\u00f4te d'Ivoire" },
   { "country": "Dem. Rep. Congo" },
-  { "country": "Denmark" },
+  {
+    "title": "The Hunt",
+    "country": "Denmark",
+    "description": "A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt2106476/",
+      "justWatch": "https://www.justwatch.com/uk/movie/the-hunt-2012",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/the_hunt_2012"
+    },
+    "listenAgain": {
+      "date": "15th May 2020",
+      "timestamp": "27:28"
+    }
+  },
   { "country": "Djibouti" },
   { "country": "Dominican Rep." },
   { "country": "Ecuador" },
@@ -270,7 +295,19 @@
   { "country": "Togo" },
   { "country": "Trinidad and Tobago" },
   { "country": "Tunisia" },
-  { "country": "Turkey" },
+  {
+    "title": "Mustang",
+    "country": "Turkey",
+    "description": "When five orphan girls are seen innocently playing with boys on a beach, their scandalized conservative guardians confine them while forced marriages are arranged.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt3966404/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/mustang_2015"
+    },
+    "listenAgain": {
+      "date": "15th May 2020",
+      "timestamp": "27:46"
+    }
+  },
   { "country": "Turkmenistan" },
   { "country": "Uganda" },
   { "country": "Ukraine" },
