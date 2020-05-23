@@ -2,6 +2,17 @@
   { "country": "Afghanistan" },
   { "country": "Albania" },
   { "country": "Algeria" },
+  {
+    "title": "Next Goal Wins",
+    "country": "American Samoa",
+    "description": "The power of hope in the face of seemingly insurmountable odds, and an object lesson in what it really means to be a winner in life.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt2446600/",
+      "justWatch": "https://www.justwatch.com/uk/movie/next-goal-wins",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/next_goal_wins"
+    },
+    "listenAgain": { "date": "22nd May 2020", "timestamp": "31:05" }
+  },
   { "country": "Angola" },
   { "country": "Antarctica" },
   { "country": "Argentina" },
@@ -38,7 +49,17 @@
   { "country": "Burundi" },
   { "country": "Cambodia" },
   { "country": "Cameroon" },
-  { "country": "Canada" },
+  {
+    "title": "The Decline of the American Empire",
+    "description": "Sexual revelations emerge when a group of academics and their partners spend a weekend at a country retreat.",
+    "country": "Canada",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt0090985/",
+      "justWatch": "https://www.justwatch.com/uk/movie/the-decline-of-the-american-empire",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/le_declin_de_lempire_americain"
+    },
+    "listenAgain": { "date": "22nd May 2020", "timestamp": "28:54" }
+  },
   { "country": "Central African Rep." },
   { "country": "Chad" },
   { "country": "Chile" },
@@ -202,7 +223,16 @@
   { "country": "Pakistan" },
   { "country": "Palestine" },
   { "country": "Panama" },
-  { "country": "Papua New Guinea" },
+  {
+    "title": "First Contact",
+    "country": "Papua New Guinea",
+    "description": "This documentary presents footage of the first contact between the highland tribes of Papua New Guinea, and European explorers.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt0085544/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/first_contact_1983"
+    },
+    "listenAgain": { "date": "22nd May 2020", "timestamp": "32:05" }
+  },
   { "country": "Paraguay" },
   { "country": "Peru" },
   { "country": "Philippines" },
@@ -271,7 +301,17 @@
   { "country": "Sudan" },
   { "country": "Suriname" },
   { "country": "Swaziland" },
-  { "country": "Sweden" },
+  {
+    "title": "Sami Blood",
+    "description": "A reindeer-breeding Sámi girl who is exposed to the racism of the 1930's at her boarding school, starts dreaming of another life. But to achieve it, she has to become someone else and break all ties with her family and culture.",
+    "country": "Sweden",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt5287168/",
+      "justWatch": "https://www.rottentomatoes.com/m/sami_blood",
+      "rottenTomatoes": "https://www.justwatch.com/uk/movie/sami-blood"
+    },
+    "listenAgain": { "date": "22nd May 2020", "timestamp": "29:15" }
+  },
   {
     "title": "Hiver Nomade",
     "country": "Switzerland",
@@ -317,7 +357,16 @@
   { "country": "Uruguay" },
   { "country": "Uzbekistan" },
   { "country": "Vanuatu" },
-  { "country": "Venezuela" },
+  {
+    "title": "Araya",
+    "country": "Venezuela",
+    "description": "'Araya' is an old natural salt mine located in a peninsula in northeastern Venezuela which was still, by 1959, being exploited manually five hundred years after its discovery by the Spanish...",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt0051372/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/araya"
+    },
+    "listenAgain": { "date": "22nd May 2020", "timestamp": "31:54" }
+  },
   { "country": "Vietnam" },
   { "country": "W. Sahara" },
   { "country": "Yemen" },
