@@ -6,6 +6,8 @@ footnote: There are no profits
 
 The BBC's flagship film programme [Wittertainment](https://www.bbc.co.uk/wittertainment) currently has a feature where they are curating a list of films for every country in the world. This simple website keeps track of the list, and was a good excuse for [me](https://tcbegley.com) to practice my web development skills.
 
+You might also be interested in checkout out our bitter rival website [witterworld.com](https://witterworld.com).
+
 This website is open source, help me make it better on [GitHub](https://github.com/tcbegley/witter-maps)! Or if you like feel free to take the code and make your own version.
 
 ## Disclaimer
