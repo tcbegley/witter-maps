@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "witter-maps",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A map for Wittertainment's 'film for every country' feature",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tom Begley <tomcbegley@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap-css-only": "^4.4.1",
