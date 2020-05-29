@@ -10,7 +10,7 @@ const geoUrl =
   'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json'
 
 export default ({ makeOnClick, films, currentFilm }) => {
-  const screenIsLarge = window.innerWidth >= 992
+  const isServer = typeof window === 'undefined'
   return (
     <ComposableMap
       projectionConfig={{
@@ -27,8 +27,8 @@ export default ({ makeOnClick, films, currentFilm }) => {
       }}
     >
       <ZoomableGroup
-        zoom={screenIsLarge ? 0.8 : 0.95}
-        center={screenIsLarge ? [70, 0] : [0, 0]}
+        zoom={isServer ? 0.95 : window.innerWidth >= 992 ? 0.8 : 0.95}
+        center={isServer ? [0, 0] : window.innerWidth >= 992 ? [70, 0] : [0, 0]}
         minZoom={0.75}
         maxZoom={10}
       >
