@@ -17,8 +17,8 @@ const InteractiveMap = ({ films, currentFilm, setCurrentFilm }) => (
       style={{
         top: '20px',
         right: '20px',
-        maxWidth: '300px',
-        width: '300px',
+        maxWidth: '320px',
+        width: '320px',
         opacity: '95%',
       }}
     >
