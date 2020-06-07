@@ -15,7 +15,17 @@
   },
   { "country": "Angola" },
   { "country": "Antarctica" },
-  { "country": "Argentina" },
+  {
+    "title": "Murder me, Monster",
+    "country": "Argentina",
+    "description": "Rural police officer Cruz investigates the bizarre case of a headless woman's body found in a remote region by the Andes Mountains.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt8311792/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/murder_me_monster",
+      "justWatch": "https://www.justwatch.com/uk/movie/murder-me-monster"
+    },
+    "listenAgain": { "date": "5th June 2020", "timestamp": "16:30" }
+  },
   { "country": "Armenia" },
   {
     "title": "Wake In Fright",
@@ -101,7 +111,17 @@
   { "country": "Croatia" },
   { "country": "Cuba" },
   { "country": "Cyprus" },
-  { "country": "Czechia" },
+  {
+    "title": "Daisies",
+    "country": "Czechia",
+    "description": "Two girls try to understand the meaning of the world and their life.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt0060959/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/daisies",
+      "justWatch": "https://www.justwatch.com/uk/movie/daisies"
+    },
+    "listenAgain": { "date": "5th June 2020", "timestamp": "19:06" }
+  },
   { "country": "C\u00f4te d'Ivoire" },
   { "country": "Dem. Rep. Congo" },
   {
@@ -206,7 +226,17 @@
       "href": "https://overcast.fm/+Ip5XDy0zY/29:12"
     }
   },
-  { "country": "Jamaica" },
+  {
+    "title": "The Harder They Come",
+    "country": "Jamaica",
+    "description": "Wishing to become a successful Reggae singer, a young Jamaican man finds himself tied to corrupt record producers and drug pushers.",
+    "links": {
+      "imdb": "https://www.imdb.com/title/tt0070155/",
+      "rottenTomatoes": "https://www.rottentomatoes.com/m/harder_they_come",
+      "justWatch": "https://www.justwatch.com/uk/movie/the-harder-they-come"
+    },
+    "listenAgain": { "date": "5th June 2020", "timestamp": "21:54" }
+  },
   { "country": "Japan" },
   { "country": "Jordan" },
   { "country": "Kazakhstan" },
