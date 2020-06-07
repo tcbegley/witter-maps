@@ -2,26 +2,32 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
+import headerStyle from './header.module.css'
 
 const Header = ({ siteTitle }) => (
-  <Navbar bg="dark" variant="dark" expand="sm">
-    <Container>
-      <span className="navbar-brand">{siteTitle}</span>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Link to="/" className="nav-link" activeClassName="active">
-            Home
-          </Link>
-          <Link to="/about" className="nav-link" activeClassName="active">
-            About
-          </Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
+  <Container>
+    <div className="row mt-4 justify-content-center">
+      <div className="col-12 col-md-auto text-center display-4 font-weight-bold">
+        {siteTitle}
+      </div>
+      <div className="col-auto ml-md-auto align-self-center">
+        <Link
+          to="/"
+          className={headerStyle.navLink}
+          activeClassName={headerStyle.navLinkActive}
+        >
+          Home
+        </Link>
+        <Link
+          to="/about"
+          className={headerStyle.navLink}
+          activeClassName={headerStyle.navLinkActive}
+        >
+          About
+        </Link>
+      </div>
+    </div>
+  </Container>
 )
 
 Header.propTypes = {

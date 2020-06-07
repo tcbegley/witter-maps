@@ -1,0 +1,14 @@
+.navLink {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navLink:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.navLinkActive {
+  color: #212121;
+}
