@@ -9,8 +9,7 @@ export default ({ data }) => {
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <SEO title="About" />
-      <h1>{frontmatter.title}</h1>
+      <SEO title={frontmatter.title} />
       <div dangerouslySetInnerHTML={{ __html: html }} />
       {frontmatter.footnote && (
         <small className="text-muted">

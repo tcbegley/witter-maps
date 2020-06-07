@@ -33,7 +33,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>WitterMaps</h1>
       <p>
         A record of entries for Wittertainment's "A film for every country"
         feature. Click on countries on the map or search the table.
